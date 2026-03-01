@@ -83,7 +83,7 @@ test("should be able to delete a todo", async({page , request, context}) => {
     await page.click('[data-testid="submit-newTask"]');
 
     await todoPage.deleteTodoByIndex(0);
-    await page.pause();  //pause for debugging
+    //await page.pause();  //pause for debugging
 
     const noTodosMessage = todoPage.getNoTodosMessage();
     await expect(noTodosMessage).toBeVisible();

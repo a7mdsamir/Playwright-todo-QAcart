@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "access_token",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MTBhMjI5MDljNzQyMDAxNTY1YmFmNSIsImZpcnN0TmFtZSI6IjExMSIsImxhc3ROYW1lIjoiMTExMSIsImlhdCI6MTc3MTQ1Nzc3MX0.4pVZoVd_5KSHiFcyDdQ3r8_W9gSzFQPigYfDv9HzgZ8",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MTBhMjI5MDljNzQyMDAxNTY1YmFmNSIsImZpcnN0TmFtZSI6IjExMSIsImxhc3ROYW1lIjoiMTExMSIsImlhdCI6MTc3MjExMjUxNH0.CuA-pj0We9xnjg8TZRJmo0H_96KXL9RBoyJkIQ_zK3E",
       "domain": "qacart-todo.herokuapp.com",
       "path": "/",
       "expires": -1,

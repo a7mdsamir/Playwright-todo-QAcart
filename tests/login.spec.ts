@@ -34,7 +34,7 @@ test.describe('Loginpage Test Cases', () => {
 //    await page.locator('#email').fill("ahmed@example.com");
     const passwordFiled = page.locator('[data-testid="password"]'); //Attribute
     await passwordFiled.fill("Test@123");
-    await page.pause();  //pause for debugging
+    //await page.pause();  //pause for debugging
     await expect(passwordFiled).toHaveValue("Test@123");
 
     const passwordFiled1 = page.locator('//input[@data-testid="password"]'); //XPATH //tagName[@attribute="value"]
