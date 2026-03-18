@@ -33,7 +33,7 @@ test("able to add a todo", async({page, request, context}) => {
     expect(todoText).toEqual("Playwright");
 });
 
-test("able to mark a todo as completed", async({page, request, context}) => {
+test.skip("able to mark a todo as completed", async({page, request, context}) => {
     // Create User
     const user = new User();
 

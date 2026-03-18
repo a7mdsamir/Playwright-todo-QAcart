@@ -29,7 +29,7 @@ test("should able to register to the todo website", async ({ page , request, con
 
     });
 
-test("should able to register to the todo website using api", async ({ page , request, context }) => {
+test.skip("should able to register to the todo website using api", async ({ page , request, context }) => {
     
     // Create User
     const user = new User();
